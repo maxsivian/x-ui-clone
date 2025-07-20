@@ -1,0 +1,1 @@
+import{j as n,S as t}from"./index-D0YnnHJ9.js";const i="_maincontainer_s7gpr_1",s={maincontainer:i},a=()=>n.jsx("div",{className:s.maincontainer,children:n.jsx(t,{visibility:!0})});export{a as default};

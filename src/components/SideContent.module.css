@@ -1,0 +1,154 @@
+.container {
+  /* border: 1px solid red; */
+  width: 320px;
+  width: 100%;
+  max-width: 700px;
+  height: fit-content;
+
+  max-height: 100vh;
+  overflow: scroll;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+
+  position: sticky;
+  /* bottom: 0 !important; */
+  top: 0px;
+}
+
+.WhatsHappeningC {
+  flex-shrink: 0;
+  border: 1px solid var(--gray1);
+  border-radius: 15px;
+  /* padding: 10px; */
+  overflow: hidden;
+
+  position: relative;
+}
+.WH_Heading {
+  padding: 10px 15px;
+}
+.WH_BoxC {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+}
+.WH_Box {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+}
+.WH_Box:hover {
+  background-color: var(--hover);
+}
+.WH_Box .left {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.WH_category {
+  color: var(--gray);
+}
+.WH_hashtag {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.WH_posts {
+  color: var(--gray);
+}
+.WH_Box .right {
+  border: none;
+  background-color: transparent;
+  /* height: fit-content; */
+  color: var(--gray);
+  /* padding: 3px; */
+  border-radius: 1000px;
+
+  width: 30px;
+  height: 30px;
+
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+/* .WH_Box .right:hover {
+  background-color: var(--blueT);
+} */
+
+.WhoToFollowC {
+  flex-shrink: 0;
+  border: 1px solid var(--gray1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.WTF_Heading {
+  padding: 10px 15px;
+}
+.WTF_BoxC {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* gap: 15px; */
+}
+.WTF_Box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 10px 10px;
+}
+.WTF_Box:hover {
+  background-color: var(--hover);
+}
+.profilePicContainer {
+  width: 50px;
+  height: 50px;
+}
+.profilePic {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.handleInfoC {
+  flex-grow: 1;
+}
+.handleInfoBox{
+  display: flex;
+}
+
+.handleName {
+}
+.handle {
+}
+.followButton {
+  border: none;
+  background-color: var(--button);
+  /* color: black; */
+  padding: 5px 10px;
+  border-radius: 1000px;
+}
+.followButton:hover {
+  background-color: var(--white1);
+}
+
+.showMore {
+  /* background-color: var(--color1); */
+  color: var(--blue);
+  padding: 10px 15px;
+  /* margin-top: 5px; */
+}
+
+.showMore:hover {
+  background-color: var(--hover);
+}
+
+
+.statusSymbols {
+  display: flex;
+}
+.statusSVGContainer {
+  width: 20px;
+}

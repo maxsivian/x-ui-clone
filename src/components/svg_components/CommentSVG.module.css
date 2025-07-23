@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+
+.SVG {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 1000px;
+}
+
+.container:hover .SVG {
+  background-color: var(--blueT);
+}
+
+.container:hover .data {
+  color: var(--blue);
+}
+
+.data {
+  color: aliceblue;
+  position: relative;
+  right: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .SVG {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .SVG {
+    width: 30px;
+    height: 30px;
+  }
+}

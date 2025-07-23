@@ -1,0 +1,148 @@
+.mainContent {
+  /* border: 1px solid gray; */
+  /* background-color: gainsboro; */
+  /* border-left: 1px solid gray; */
+  border-right: 1px solid var(--gray1);
+  position: relative;
+
+  padding-bottom: 200px;
+
+  width: 700px;
+  flex-grow: 1;
+}
+
+.PostComponent {
+  border-bottom: 1px solid var(--gray1);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+
+  backdrop-filter: blur(15px);
+
+}
+
+.header .routes {
+  /* border: 1px solid green; */
+  /* border-left: 1px solid gray; */
+  display: flex;
+  /* align-items: center; */
+  height: 50px;
+
+  /* position: sticky;
+  top: 0;
+  z-index: 2; */
+
+  /* backdrop-filter: blur(15px); */
+  border-bottom: 1px solid var(--gray1);
+}
+
+.forYou,
+.following {
+  /* border: 1px solid greenyellow; */
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+.forYou > div,
+.following > div {
+  /* border: 1px solid yellow; */
+  width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: space-between;
+}
+.forYou:hover,
+.following:hover {
+  background-color: var(--hover);
+}
+.line {
+  height: 4px;
+  width: 100%;
+  border-radius: 1000px;
+}
+.blue {
+  background-color: var(--blue);
+}
+.route {
+  color: var(--gray);
+  /* font-weight: bold; */
+}
+.bolder {
+  font-weight: bolder;
+  color: var(--white);
+}
+
+.postButton {
+  padding: 10px 20px;
+  border-radius: 1000px;
+  border: none;
+  font-weight: bolder;
+}
+
+/* @media screen and (max-width: 600px) {
+  .mainContent {
+    width: 100%;
+  }
+} */
+
+.mobileHeaderC {
+  /* border: 1px solid yellow; */
+  display: none;
+  position: sticky;
+  top: 0px;
+
+  width: 100vw;
+}
+.mobileHeaderBox {
+  /* border: 1px solid red; */
+  /* background-color: var(--black); */
+  /* width: 100vw; */
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 5px 20px;
+
+  position: sticky;
+  top: 0px;
+}
+.mobileHeaderBox > * {
+  /* border: 1px solid yellow; */
+  width: 45px;
+}
+.mobileHeaderBox .userButton {
+  /* border: 1px solid red; */
+  border-radius: 1000px;
+  overflow: hidden;
+
+  width: 35px;
+  height: 35px;
+}
+
+.mobileHeaderBox .userImage {
+  width: 100%;
+  height: 100%;
+}
+.mobileHeaderBox .logoC {
+  /* border: 1px solid red; */
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+}
+.mobileHeaderBox .logo {
+  width: 100%;
+  height: 100%;
+  filter: invert(1);
+}
+
+@media screen and (max-width: 600px) {
+  .mobileHeaderC {
+    display: flex;
+  }
+}

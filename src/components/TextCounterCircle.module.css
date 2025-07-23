@@ -1,0 +1,32 @@
+.circle{
+    /* border: 1px solid red; */
+    position: relative;
+    height: 30px;
+    width: 30px;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.circleSvg{
+    /* border: 1px solid blue; */
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+}
+
+.textLeft{
+    /* position: absolute; */
+    /* top: 25%; */
+    font-size: 0.55rem;
+}
+
+.red{
+    color: red !important;
+}
+
+.yellow{
+    color: yellow !important;
+}

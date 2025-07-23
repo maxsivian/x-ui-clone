@@ -1,0 +1,159 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  /* height: 100vh; */
+  /* width: 100vw; */
+
+  z-index: 2;
+
+  background-color: var(--overlay);
+  /* border: 1px solid red; */
+}
+
+.container {
+  /* border: 1px solid cyan; */
+  background-color: var(--black);
+
+  height: 100%;
+  width: 200px;
+  width: fit-content;
+  padding-top: 10px;
+
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 1s ease, transform 0.3s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.hide {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+
+
+
+
+
+.link {
+  /* background-color: rgba(139, 137, 137, 0.486); */
+  /* border-radius: 1000px; */
+  padding: 10px 10px;
+  padding: 10px 15px;
+  /* width: fit-content; */
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  transition: background-color 0.2s;
+}
+.link:hover {
+  background-color: var(--hover);
+  cursor: pointer;
+}
+.iconContainer {
+  /* border: 1px solid red; */
+  height: 30px;
+  width: 30px;
+}
+.icon {
+  /* border: 1px solid red; */
+  filter: invert(1);
+}
+.name {
+  font-size: 1.4rem;
+}
+
+
+
+
+.header{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.header .top{
+    /* border: 1px solid red; */
+    padding: 5px 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.userButton{
+    width: 40px;
+    height: 40px;
+    border-radius: 1000px;
+    overflow: hidden;
+}
+.addAccount{
+    border: 1px solid white;
+    color: var(--blue);
+    width: 40px;
+    height: 40px;
+    border-radius: 1000px;
+    font-size: 1.5rem;
+}
+.userImg{
+    width: 100%;
+    height: 100%;
+}
+
+.header .middle{
+    /* border: 1px solid red; */
+    padding: 5px 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header .name{
+
+}
+
+.header .handle{
+    color: var(--gray);
+}
+
+.header .bottom{
+    /* border: 1px solid red; */
+    padding: 5px 10px;
+
+    display: flex;
+    gap: 10px;
+}
+
+
+.header .following, .header .followers{
+    font-size: 0.85rem;
+
+    display: flex;
+    gap: 3px;
+}
+
+.header .following>span:nth-of-type(2){
+    color: var(--gray);
+}
+
+.header .followers>span:nth-of-type(2){
+    color: var(--gray);
+}
+
+
+.horizontalLine{
+    height: 1px; 
+    width: 90%;
+    background-color: var(--gray);
+
+    margin: auto;
+    margin-top: 10px;
+}

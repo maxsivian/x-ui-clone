@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Swadev 1",
+    "handle": "@maxsivian1",
+    "profilePic": "./profile_pics/profile1.jpg",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae tempore inventore molestias dolore ad mollitia fugit velit recusandae dolor?",
+    "image": "./images/c3.jpeg",
+    "metadata": {
+      "comments": "17B",
+      "reposts": "988M",
+      "likes": "25B",
+      "views": "38B",
+      "uploadDataTime": "2h",
+      "statusSymbols": ["goldtick.svg", "maxsivian.png"]
+    }
+  },
+  {
+    "name": "Swadev 2",
+    "handle": "@maxsivian2",
+    "profilePic": "./profile_pics/profile2.jpg",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae tempore inventore molestias dolore ad mollitia fugit velit recusandae dolor?",
+    "image": "./images/c1.jpeg",
+    "metadata": {
+      "comments": "19B",
+      "reposts": "874M",
+      "likes": "29B",
+      "views": "45B",
+      "uploadDataTime": "3h",
+      "statusSymbols": ["bluetick.svg"]
+    }
+  },
+  {
+    "name": "Swadev 3",
+    "handle": "@maxsivian3",
+    "profilePic": "./profile_pics/profile3.jpg",
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit molestiae tempore inventore molestias dolore ad mollitia fugit velit recusandae dolor?",
+    "image": "./images/c2.jpeg",
+    "metadata": {
+      "comments": "36B",
+      "reposts": "12B",
+      "likes": "43B",
+      "views": "89B",
+      "uploadDataTime": "5h",
+      "statusSymbols": ["graytick.svg"]
+    }
+  }
+]

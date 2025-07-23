@@ -1,0 +1,34 @@
+[
+    {
+        "label": "Unfollow x",
+        "name": "unfollow"
+    },
+    {
+        "label": "Add/remove x from lists",
+        "name": "add_or_remove_x_from_lists"
+    },
+    {
+        "label": "Mute x",
+        "name": "mute"
+    },
+    {
+        "label": "Block x",
+        "name": "block"
+    },
+    {
+        "label": "View post engagements",
+        "name": "view_post_engagements"
+    },
+    {
+        "label": "Embed post",
+        "name": "embed_post"
+    },
+    {
+        "label": "Report post",
+        "name": "report_post"
+    },
+    {
+        "label": "Request Community Note",
+        "name": "request_community_note"
+    }
+]

@@ -1,0 +1,35 @@
+.container{
+    /* background-color: blue; */
+    /* background-color: var(--blueT); */
+    border-radius: 1000px;
+    /* width: 30px; */
+    /* height: 30px; */
+    /* padding: 5px; */
+} 
+
+.SVG {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  /* border-radius: 1000px; */
+}
+
+
+.container:hover{
+    background-color: var(--blueT);
+}
+
+
+@media screen and (max-width: 500px) {
+  .SVG {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .SVG {
+    width: 30px;
+    height: 30px;
+  }
+}

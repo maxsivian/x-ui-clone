@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Next.js",
+        "handle": "@nextjs",
+        "profilePic": "./profile_pics/nextjs.jpg",
+        "statusSymbols": ["goldtick", "nextjs.png"]
+    },
+    {
+        "name": "ExpressJS",
+        "handle": "@UseExpressJS",
+        "profilePic": "./profile_pics/expressjs.jpg",
+        "statusSymbols": []
+    },
+    {
+        "name": "MongobDB",
+        "handle": "@MongoDB",
+        "profilePic": "./profile_pics/mongodb.png",
+        "statusSymbols": ["goldtick"]
+    }
+]

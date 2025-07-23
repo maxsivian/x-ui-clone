@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Twitter Chirp';
+    src: url('/fonts/Chirp-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: sans-serif; */
+  font-family: Twitter Chirp, sans-serif;
+}
+
+:root{
+  --black: black;
+  --shadow: rgba(255, 255, 255, 0.3);
+  --overlay: rgba(128, 128, 128, 0.25);
+
+  --white: white;
+  --white1: rgb(209, 209, 209);
+  --button: white;
+
+  --gray: gray;
+  --gray1: rgba(128, 128, 128, 0.5);
+  /* --hover: rgba(128, 128, 128, 0.33);*/
+  --hover: rgba(128, 128, 128, 0.3);
+ 
+  --blue: rgb(29, 155, 240);
+  --blueT:rgba(100, 172, 255, 0.158);
+  --blue1: rgb(0, 116, 248);
+
+  --green: #00BC7D;
+  --green1: #00bc7d2c;
+  --pink: #C81467;
+  --pink1: #c8146833;
+}
+
+body{
+  background-color: black;
+  color: white;
+  overflow-x: hidden;
+
+}
+
+*:disabled{
+    cursor: no-drop; 
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  /* color: white; */
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+
+/* Width and color of the scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track (the background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: var(--color-c1);
+  border-radius: 20px;
+}
+
+/* Handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: var(--color2);
+  border-radius: 20px;
+  /* border: 3px solid #444;  */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color3);
+}
+
+/* Buttons (arrows at the top and bottom of scrollbar) */
+::-webkit-scrollbar-button {
+  /* background: #333; */
+  display: none;
+}
+
+/* Corner (where vertical and horizontal scrollbars meet) */
+::-webkit-scrollbar-corner {
+  background: #111;
+  /* background: var(--color1);  */
+}

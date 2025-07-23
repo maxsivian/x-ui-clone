@@ -1,0 +1,46 @@
+[
+  {
+    "label": "Profile",
+    "name": "profile"
+  },
+  {
+    "label": "Premium",
+    "name": "premium"
+  },
+  {
+    "label": "Lists",
+    "name": "lists"
+  },
+  {
+    "label": "Bookmarks",
+    "name": "bookmarks"
+  },
+  {
+    "label": "Monetization",
+    "name": "monetization"
+  },
+  {
+    "label": "Verified Orgs",
+    "name": "verified_orgs"
+  },
+  {
+    "label": "Ads",
+    "name": "ads"
+  },
+  {
+    "label": "Jobs",
+    "name": "jobs"
+  },
+  {
+    "label": "Create your Space",
+    "name": "create_your_space"
+  },
+  {
+    "label": "Settings & Privacy",
+    "name": "settings_and_privacy"
+  },
+  {
+    "label": "Logout",
+    "name": "logout"
+  }
+]
